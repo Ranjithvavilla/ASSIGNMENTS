@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekstar</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <p>Full Name*</p>
+                    <input type="text" name="nm" placeholder="Enter your Name"/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                
+                <td>
+                    <p>Email*</p>
+                    <input type="email" name="em" value=" " placeholder="Enter your Email" pattern=".+@gmail\.com" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Select Course* </p>
+                    <select size="" name="SC" >
+                        <option selected disabled> Select prefered Course</option>
+                        <option>B.E or B.Tech CS/IT</option>
+                        <option>B.E or B.Tech other</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Phone*</p>
+                    <input type="number" name="pn" value=" " placeholder="Enter your Phone Number" pattern="[0-9]{10}" />
+                </td>
+                <td>
+                    <p>Highest Degree*</p>
+                    <select name="degree">
+                        <option selected disabled>Select Highest Degree</option>
+                        <option>B.E or B.Tech CS/IT</option>
+                        <option>B.E or B.Tech other</option>
+                        <option>M.S or M.Tech CS/IT</option>
+                        <option>M.S or M.Tech other</option>
+                        <option>BCA</option>
+                        <option>MCA</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Year Of Completion*</p>
+                    <select name="Year">
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                    </select>
+                </td>
+                <td>
+                    <p>Programming Skill*</p>
+                    <select name="SL">
+                        <option selected disabled>Select Programming Skill Level</option>
+                        <option>Fresher </option>
+                        <option>Beginer </option>
+                        <option>Intermediate </option>
+                        <option>Expert </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        
+        <input type="checkbox" name="check" value="a" /> By signing up, you agree to the Terms and Conditions 
+            of Geekster (QuantumBit technologies Pvt. Ltd)*.
+            <br/>
+            <br/>
+       
+        <input type="submit" name="submit" />
+    </form>
+</body>
+</html>
