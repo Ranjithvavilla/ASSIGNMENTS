@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blanchedalmond;
+
+}
+
+
+#num_1, #num_2, .result{
+    margin: 5px;
+    width: 75px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: azure;
+}
+
+#result{
+    background-color: bisque;
+    width: 50px;
+    margin-left: 5px;
+    padding-top: 10px;
+    text-align: center;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.add{
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(208, 241, 15);
+}
+
+.add:active{
+    background-color: rgb(211, 228, 119);
+    border-color: azure;
+}

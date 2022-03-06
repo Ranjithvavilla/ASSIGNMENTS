@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+
+.play_button{
+    width: 20%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.play_button > button{
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: greenyellow;
+    color: brown;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    
+}

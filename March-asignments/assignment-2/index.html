@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+    <body>
+        <div class="registration">
+            <div>
+                <img class="image1" src="img.jpg" />
+            </div>
+
+            <h1 class="start">Get Started</h1>
+            <div class="user-detail" >
+                <h3>Name 
+                    <input type="text" name="name">
+                    <hr />
+                </h3>
+                <h3>E-mail 
+                    <input type="email" name="email">
+                    <hr />
+                </h3>
+                <h3>Password 
+                    <input type="password" name="password" id="pass">
+                    <hr />
+                </h3>
+                <h3>Confirm Password 
+                    <input type="password" name="c_password" id="c_pass">
+                    <hr />
+                </h3>
+                <h3 id="alert">
+                    
+                </h3>
+                <h3 >
+                    <input class="terms_and_con" type="radio" required name="term" >
+                    I agree to the<a class="terms" href="#"> Terms of Service</a>
+                    and <a class="terms" href="#"> Privacy policy</a>
+                
+                </h3>
+            </div>
+            <div class="reg_next">
+                <h2>Sign Up</h2>
+                <h3><a href="#">Sign in</a></h3>
+            </div>
+            <div class="arrow">
+                <button onclick="check_pass();">→</button>
+            </div>
+
+        </div>
+
+        <script src="./index.js"></script>
+
+    </body>
+</html>

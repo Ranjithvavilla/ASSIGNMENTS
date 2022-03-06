@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    background-color: aquamarine;
+
+}
+p{
+    text-align: center;
+}
+
+#num_1, #num_2{
+    margin: 5px;
+    width: 75px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: azure;
+    
+}
+
+#result{
+    background-color: bisque;
+    width: 50px;
+    margin-left: 5px;
+    padding-top: 10px;
+    text-align: center;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.swap{
+    margin-left: 15px;
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(208, 241, 15);
+}
+
+.swap:active{
+    background-color: rgb(211, 228, 119);
+    border-color: azure;
+}
+
+#value_A, #value_B{
+    background-color: aqua;
+    margin: 0px;
+    padding: 8px;
+    font-size: X-large;
+    width: 100px;
+    margin: auto;
+    text-align: left;
+    padding-left: 20px;
+    border: 2px solid black;
+}
